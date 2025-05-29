@@ -13,7 +13,7 @@ function showOptions() {
   document.getElementById("date-selector").innerHTML = "";
   document.getElementById("videos-container").innerHTML = "";
 }
-
+ 
 async function loadDates(tipo) {
   const btnSociety = document.querySelector(".option-box");
   const originalText = btnSociety.innerHTML;
