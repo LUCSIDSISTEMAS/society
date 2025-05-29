@@ -1,8 +1,6 @@
 const API_URL = "https://script.google.com/macros/s/AKfycbzI8UEco1hNeW7mXiNEp9RPK3Z35YGBbBCSMtipbp93_G0BGJ2K-1QnFJIzd-jcydkPKw/exec";
 
-window.onload = () => {
-  showOptions();
-};
+document.addEventListener("DOMContentLoaded", showOptions);
 
 function showOptions() {
   const options = document.getElementById("options");
